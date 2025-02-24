@@ -1,142 +1,84 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Studying
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.WriteLine("Please input the first number");
+        if (!int.TryParse(Console.ReadLine(), out int num1))
         {
-            int res;
+            Console.WriteLine("Invalid input for the first number.");
+            return;
+        }
 
-            Console.WriteLine("Please input the first number");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please input the second number");
+        if (!int.TryParse(Console.ReadLine(), out int num2))
+        {
+            Console.WriteLine("Invalid input for the second number.");
+            return;
+        }
 
-            Console.WriteLine("Please input the second number");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please choose the following variable '+' , '-' , '*' , '/' ");
+        string operation = Console.ReadLine();
 
-            Console.WriteLine("Please choose the following variable '+' , '-' , '*;' , '/' ");
+        int res;
+        switch (operation)
+        {
+            case "+":
+                res = num1 + num2;
+                Console.WriteLine("Addition: " + res);
+                break;
+            case "-":
+                res = num1 - num2;
+                Console.WriteLine("Subtraction: " + res);
+                break;
+            case "*":
+                res = num1 * num2;
+                Console.WriteLine("Multiplication: " + res);
+                break;
+            case "/":
+                if (num2 == 0)
+                {
+                    Console.WriteLine("Division by zero is not allowed.");
+                    return;
+                }
+                res = num1 / num2;
+                Console.WriteLine("Division: " + res);
+                break;
+            default:
+                Console.WriteLine("Operation is not present in the list of allowed operations");
+                return;
+        }
 
-            string operation = Console.ReadLine();
+        CheckResult(res);
+        CheckEvenOdd(res);
+    }
 
-            switch (operation)
-            {
-                case "+":
-                    res = num1 + num2;
-                    Console.WriteLine("Addition:" + res);
-                    if (res < 50 && res != 37 && res >= 32)
-                    {
-                        Console.WriteLine("Works!");
-                    }
-                    else if (res == 0 / 15)
-                    {
-                        Console.WriteLine("Partly working!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Does’t work");
-                    }
+    static void CheckResult(int res)
+    {
+        if (res < 50 && res != 37 && res >= 32)
+        {
+            Console.WriteLine("Works!");
+        }
+        else if (res == 0 || res == 15)
+        {
+            Console.WriteLine("Partly working!");
+        }
+        else
+        {
+            Console.WriteLine("Doesn't work");
+        }
+    }
 
-
-                    if (res % 2 == 0)
-                    {
-                        Console.WriteLine("Even");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Odd");
-                    }
-                    break;
-
-                case "-":
-                    res = num1 - num2;
-                    Console.WriteLine("Substraction:" + res);
-                    if (res < 50 && res != 37 && res >= 32)
-                    {
-                        Console.WriteLine("Works!");
-                    }
-                    else if (res == 0 / 15)
-                    {
-                        Console.WriteLine("Partly working!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Does’t work");
-                    }
-
-                    if (res % 2 == 0)
-                    {
-                        Console.WriteLine("Even");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Odd");
-                    }
-
-                    break;
-                case "*":
-                    res = num1 * num2;
-                    Console.WriteLine("Multiplication:" + res);
-                    if (res < 50 && res != 37 && res >= 32)
-                    {
-                        Console.WriteLine("Works!");
-                    }
-                    else if (res == 0 / 15)
-                    {
-                        Console.WriteLine("Partly working!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Does’t work");
-                    }
-
-                    if (res % 2 == 0)
-                    {
-                        Console.WriteLine("Even");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Odd");
-                    }
-
-                    break;
-                case "/":
-                    res = num1 / num2;
-                    Console.WriteLine("Division:" + res);
-                    if (res < 50 && res != 37 && res >= 32)
-                    {
-                        Console.WriteLine("Works!");
-                    }
-                    else if (res == 0 / 15)
-                    {
-                        Console.WriteLine("Partly working!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Does’t work");
-                    }
-
-                    if (res % 2 == 0)
-                    {
-                        Console.WriteLine("Even");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Odd");
-                    }
-
-                    break;
-                default:
-                    Console.WriteLine("Operation is not present in the list of allowed operations");
-                    break;
-
-
-                   
-
-            }
+    static void CheckEvenOdd(int res)
+    {
+        if (res % 2 == 0)
+        {
+            Console.WriteLine("Even");
+        }
+        else
+        {
+            Console.WriteLine("Odd");
         }
     }
 }
