@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edgaras.Valentynovic\\source\\repos\\Studying\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C63903-CD95-458E-94CA-ADD568DB5043}|Studying\\Studying.csproj|c:\\users\\edgaras.valentynovic\\source\\repos\\studying\\studying\\tasks\\task_if_else\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C63903-CD95-458E-94CA-ADD568DB5043}|Studying\\Studying.csproj|solutionrelative:studying\\tasks\\task_if_else\\calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7C63903-CD95-458E-94CA-ADD568DB5043}|Studying\\Studying.csproj|c:\\users\\edgaras.valentynovic\\source\\repos\\studying\\studying\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7C63903-CD95-458E-94CA-ADD568DB5043}|Studying\\Studying.csproj|solutionrelative:studying\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Edgaras.Valentynovic\\source\\repos\\Studying\\Studying\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Studying\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Edgaras.Valentynovic\\source\\repos\\Studying\\Studying\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Studying\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:50:59.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculations.cs",
+              "DocumentMoniker": "C:\\Users\\Edgaras.Valentynovic\\source\\repos\\Studying\\Studying\\Tasks\\Task_If_else\\Calculations.cs",
+              "RelativeDocumentMoniker": "Studying\\Tasks\\Task_If_else\\Calculations.cs",
+              "ToolTip": "C:\\Users\\Edgaras.Valentynovic\\source\\repos\\Studying\\Studying\\Tasks\\Task_If_else\\Calculations.cs",
+              "RelativeToolTip": "Studying\\Tasks\\Task_If_else\\Calculations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:41:59.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
