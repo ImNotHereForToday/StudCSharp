@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Studying.Program
 {
-    class Program_Generic
+    class Program_Generic : GenericArray<int>
     {
-        static void Main(string[] args)
+        public void RunGenericArrayTask_Generics()
         {
             GenericArray<int> intArray = new GenericArray<int>();
 
@@ -34,9 +34,9 @@ namespace Studying.Program
             Console.WriteLine("\nCount:");
             intArray.GetCount();
 
-           
+           }
         }
 
 
     }
-}
+

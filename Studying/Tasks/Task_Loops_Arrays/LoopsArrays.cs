@@ -3,19 +3,7 @@ using System.Linq;
 
 class LoopsArrays
 {
-    static void Main(string[] args)
-    {
-        // CalculationAndMultiplication();
-        //Arrays();
-        //Calculate_2048_Divided_By_2();
-        //Array_Of_Strings();
-        //Calculate_Array_Numbers();
-        //Array_Of_Max_Min_Numbers();
-        //Array_Asscending_Numbers();
-        Array_Two_Dimensional();
-    }
-
-
+  
     public static void CalculationAndMultiplication()
     {
         Console.WriteLine("Please input positive number");
